@@ -19,5 +19,6 @@ there are two conditions:
 * pair(n,m) is the best solution
 * pair(n,m) is not the best solution:
    * if pair(n,m) is not the best solution, then the best solution must inside array from n to m
-   * according to the formular "(n * m) * i", i is decrease by 1 ,in order to make the result larger, we must remove the smaller value(n) to get the best solution
+   * according to the formular "(n * m) * i", i is decrease by 1 ,in order to make the result larger, we must remove the smaller value(n) to get the best solution         
+     
 Thus, we will find the best solution if we keep remove the smaller value postion
